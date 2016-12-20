@@ -6,6 +6,11 @@ $(function() {
  			pdt.height(ph);
  	});
 
+ 	$(".till_item .tc").each(function() {
+ 		var parh = $(this).parent().height();
+ 		$(this).height(parh);
+ 	})
+
 	//SVG Fallback
 	if(!Modernizr.svg) {
 		$("img[src*='svg']").attr("src", function() {
