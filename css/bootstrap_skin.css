@@ -4,6 +4,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	text-transform: uppercase;
+	font-family: "OpenSansBold", sans-serif;
 }
 h1, .h1 {
 	font-size: 25px;
@@ -116,6 +117,12 @@ a:focus {
 	box-hadow: none;
 	margin-bottom: 15px;
 }
+.panel-default .head_wrap .panel-heading {
+	background-color: #FF910C;
+	-webkit-box-shadow: 0 0 0 1px #ff910c;
+	box-shadow: 0 0 0 1px #ff910c;
+	border-bottom: none;
+}
 .panel-default > .panel-heading {
 	background-color: #FF910C;
 	-webkit-box-shadow: 0 0 0 1px #ff910c;
@@ -186,4 +193,7 @@ a.list-group-item:focus, button.list-group-item:focus {
 }
 .panel-group .panel+.panel {
     margin-top: 0;
+}
+.panel>.list-group:first-child .list-group-item:first-child, .panel>.panel-collapse>.list-group:first-child .list-group-item:first-child {
+	border-right-style: none;
 }

@@ -88,3 +88,53 @@ body textarea:required:valid {
 .input-group-addon {
   color: #995C11;
 }
+.box_mnu .panel-heading:nth-child(2) {
+  border-radius: 0;
+}
+.aside_carousel .item {
+  min-height: initial;
+  background-color: transparent;
+  margin-bottom: 5px;
+}
+.aside_carousel .carousel-indicators {
+  position: initial;
+  width: 100%;
+  margin-left: 0;
+}
+.aside_carousel .carousel-indicators li {
+  border-color: #999;
+}
+.aside_carousel .carousel-indicators li.active {
+  border-color: transparent;
+}
+.aside_carousel .carousel-control {
+  margin-bottom: 0;
+}
+.aside_carousel .carousel-control span {
+  color: #aaa;
+  text-shadow: none;
+}
+.car_control {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  color: grey;
+}
+h4.lead {
+  font-family: "OpenSans", sans-serif;
+  text-transform: none;
+}
+.carousel-inner .aside_car_ontainer p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.aside_carousel .more {
+  font-size: 13px;
+}
+.well h4 {
+  margin-top: 0;
+}
+.well p {
+  font-size: 13px;
+  line-height: 1.4;
+}
