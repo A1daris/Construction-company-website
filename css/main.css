@@ -23,7 +23,7 @@ html.js .loader {
     position: absolute; }
 
 body {
-  font-family: "RobotoRegular", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-weight: normal;
   font-size: 14px;
   min-width: 320px;
@@ -42,3 +42,49 @@ body textarea:required:valid {
 
 .hidden {
   display: none; }
+.s_main {
+  margin-top: 20px;
+}
+.box {
+
+}
+.box .form-group {
+  margin-bottom: 0;
+}
+.box_search .panel-default > .panel-heading {
+  border-radius: 3px;
+  padding: 7px 7px;
+  background-color: #FF910C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.box_back .panel-default > .panel-heading{
+  padding: 6px 4px;
+}
+.box_back h4 {
+  display: inline-block;
+  font-size: 14px;
+  font-family: "OpenSansBold", sans-serif;
+  margin: 10px 0;
+}
+.box_back .btn {
+  font-size: 12px;
+  text-transform: none;
+  color: #000;
+  font-family: "OpenSansBold", sans-serif;
+  padding: 6px 6px;
+  float: right;
+}
+.box_back .input-group {
+  margin-bottom: 8px;
+}
+.box_back .input-group:last-child {
+  margin-bottom: 0;
+}
+.box_back .input-group .input-group-addon {
+  background-color: #FF910C;
+  border-color: #FF910C;
+}
+.input-group-addon {
+  color: #995C11;
+}

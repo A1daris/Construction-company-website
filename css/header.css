@@ -1,0 +1,54 @@
+.navbar-brand {
+	padding: 0;
+	position: relative;
+	top: 5px;
+	z-index: 2;
+}
+.main_head .lead {
+	color: #fff;
+	font-family: "OpenSansBold";
+}
+.phone_top {
+	top: 12px;
+	position: relative;
+	text-align: center;
+}
+.navbar {
+	margin-bottom: 0;
+}
+.s_slider {
+
+}
+.carousel-inner > .item >img{
+	position: relative;
+}
+.carousel-inner .overlay {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(36, 36, 36, .67);
+}
+.slide_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.main_head ul.navbar-nav {
+	z-index: 2;
+	position: relative;
+}
+.carousel-inner>.item {
+    min-height: 480px;
+}
+.carousel-inner .h1 {
+    font-family: "OpenSansBold",sans-serif;
+    line-height: 1.5;
+    margin-top: 0;
+}

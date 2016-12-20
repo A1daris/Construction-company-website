@@ -2,16 +2,39 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.phone_top {
+		position: absolute;
+		right: 0;
+	}
+
+	.main_head .navbar-collapse {
+		position: relative;
+	}
+	.main_head ul.navbar-nav {
+		margin-top: 25px;
+
+	}
+
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	ul.navbar-nav li a {
+		font-size: 13px;
+		padding: 11px;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
+	ul.navbar-nav li a {
+		font-size: 15px;
+	}
+	.phone_top {
+		position: relative;
+	}
 
 	/*Disable Animation on Mobile Devices*/
 	.animated {
@@ -39,7 +62,17 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+.carousel-inner>.item {
+    min-height: 600px;
+}
+.s_slider .carousel-inner .h1 {
+	font-size: 1.9em;
+	line-height: 1.2;
+}
+.carousel-inner small {
+	font-size: 0.7em;
+	margin-top: 10px;
+}
 }
 
 /* Custom, iPhone Retina */
