@@ -24,6 +24,10 @@
 		font-size: 13px;
 		padding: 11px;
 	}
+	.news_item {
+		max-width: initial;
+		margin-bottom: 10px;
+	}
 }
 
 /* Small Devices, Tablets */
