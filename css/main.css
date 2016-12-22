@@ -340,3 +340,29 @@ article {
 .modal-footer {
   text-align: center;
 }
+.breadcrumb {
+  background-color: #fff;
+  padding: 0;
+}
+.breadcrumb li a {
+ color: #9a9a9a;
+}
+.breadcrumb li+li:before {
+  content: '>';
+  color: #9a9a9a;
+}
+.content h1 {
+  margin-bottom: 35px;
+}
+.content img {
+  margin-bottom: 20px;
+}
+.navbar-brand.vnutr {
+  height: 45px;
+  overflow: hidden;
+}
+.navbar-brand.vnutr img {
+  width: 80px;
+  margin-right: 30px;
+
+}
