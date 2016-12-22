@@ -310,10 +310,13 @@ footer .lead {
   color: #fff;
 
 }
-.callback:hover {
+.callback:hover, {
   border-bottom: 1px dotted #f27937;
   text-decoration: none;
   color: #f27937;
+}
+.callback:visited {
+  text-decoration: none;
 }
 article {
   margin-bottom: 40px;
@@ -330,4 +333,10 @@ article {
   margin-bottom: 2px;
   display: inline-block;
 
+}
+.modal-dialog {
+  max-width: 360px;
+}
+.modal-footer {
+  text-align: center;
 }
