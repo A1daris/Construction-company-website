@@ -28,6 +28,9 @@
 		max-width: initial;
 		margin-bottom: 10px;
 	}
+	.main_footer .col-sm-6 {
+		margin-bottom: 20px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -76,6 +79,13 @@
 .carousel-inner small {
 	font-size: 0.7em;
 	margin-top: 10px;
+}
+.main_footer {
+	padding-top: 40px;
+}
+.main_footer .col-sm-6 {
+	text-align: center;
+	width: 100%;
 }
 }
 
