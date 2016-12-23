@@ -88,6 +88,9 @@ body textarea:required:valid {
 .input-group-addon {
   color: #995C11;
 }
+.panel .panel-heading {
+  overflow: hidden;
+}
 .box_mnu .panel-heading:nth-child(2) {
   border-radius: 0;
 }
@@ -354,7 +357,7 @@ article {
 .content h1 {
   margin-bottom: 35px;
 }
-.content img {
+.vnutr img {
   margin-bottom: 20px;
 }
 .navbar-brand.vnutr {

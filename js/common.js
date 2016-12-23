@@ -1,15 +1,18 @@
 $(function() {
-function initSize() {
-	$(".box_mnu .head_wrap").each(function() {
- 			var ph = $(this).height() +3;
- 			var pdt = $(this).find(".dropdown-toggle");
- 			pdt.height(ph);
- 	});
- 	$(".till_item .tc").each(function() {
- 		var parh = $(this).parent().height();
- 		$(this).height(parh);
- 	});
-};
+	
+	function initSize() {
+		//set height of accordion menu headings
+		$(".box_mnu .panel-heading").each(function() {
+	 			var ph = $(this).innerHeight() +3;
+	 			var pdt = $(this).find(".dropdown-toggle");
+	 			pdt.height(ph);
+	 	});
+		//set height of tills color overlay
+	 	$(".till_item .tc").each(function() {
+	 		var parh = $(this).parent().height();
+	 		$(this).height(parh);
+	 	});
+	};
  
  	initSize();
  
